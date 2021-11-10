@@ -6,7 +6,6 @@ class Gossm < Formula
   desc "gossm is interactive CLI tool that you select server in AWS and then could connect or send files your AWS server using start-session, ssh, scp under AWS Systems Manger."
   homepage ""
   version "1.4.4"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
